@@ -1,0 +1,8 @@
+title: 'crop land mask'
+yTitle: 0.88
+xTitle: 0.05
+removeEmptyColumns: True
+labeltext: 'cropland in % '
+factor: 1.000000
+maxValue: 100
+minValue: 0
