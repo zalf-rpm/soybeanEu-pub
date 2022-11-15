@@ -20,3 +20,6 @@
 
 
 python .\extract_stats\extract_stats.py folder=eval > mystats.txt
+
+# python reference from Dockrhub:
+docker pull zalfrpm/python3.7:2.0
