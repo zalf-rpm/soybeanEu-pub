@@ -1,0 +1,5 @@
+<InitialWater>
+<FractionFull>1</FractionFull>
+<DepthWetSoil>NaN</DepthWetSoil>
+<PercentMethod>FilledFromTop</PercentMethod>
+</InitialWater>

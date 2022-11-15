@@ -1,0 +1,140 @@
+<operations name="Operations Schedule">
+          <operation condition="start_of_day">
+            <date>15-Mar</date>
+            <action>irrigation apply amount = 50 (mm) irrigation efficiency = 1</action>
+          </operation>
+          <operation condition="start_of_day">
+            <date>22-Mar</date>
+            <action>irrigation apply amount = 50 (mm) irrigation efficiency = 1</action>
+          </operation>
+          <operation condition="start_of_day">
+            <date>29-Mar</date>
+            <action>irrigation apply amount = 50 (mm) irrigation efficiency = 1</action>
+          </operation>
+          <operation condition="start_of_day">
+            <date>5-Apr</date>
+            <action>irrigation apply amount = 50 (mm) irrigation efficiency = 1</action>
+          </operation>
+          <operation condition="start_of_day">
+            <date>12-Apr</date>
+            <action>irrigation apply amount = 50 (mm) irrigation efficiency = 1</action>
+          </operation>
+          <operation condition="start_of_day">
+            <date>19-Apr</date>
+            <action>irrigation apply amount = 50 (mm) irrigation efficiency = 1</action>
+          </operation>
+          <operation condition="start_of_day">
+            <date>26-Apr</date>
+            <action>irrigation apply amount = 50 (mm) irrigation efficiency = 1</action>
+          </operation>
+          <operation condition="start_of_day">
+            <date>3-May</date>
+            <action>irrigation apply amount = 50 (mm) irrigation efficiency = 1</action>
+          </operation>
+          <operation condition="start_of_day">
+            <date>10-May</date>
+            <action>irrigation apply amount = 50 (mm) irrigation efficiency = 1</action>
+          </operation>
+          <operation condition="start_of_day">
+            <date>17-May</date>
+            <action>irrigation apply amount = 50 (mm) irrigation efficiency = 1</action>
+          </operation>
+          <operation condition="start_of_day">
+            <date>24-May</date>
+            <action>irrigation apply amount = 50 (mm) irrigation efficiency = 1</action>
+          </operation>
+          <operation condition="start_of_day">
+            <date>31-May</date>
+            <action>irrigation apply amount = 50 (mm) irrigation efficiency = 1</action>
+          </operation>
+          <operation condition="start_of_day">
+            <date>7-Jun</date>
+            <action>irrigation apply amount = 50 (mm) irrigation efficiency = 1</action>
+          </operation>
+          <operation condition="start_of_day">
+            <date>14-Jun</date>
+            <action>irrigation apply amount = 50 (mm) irrigation efficiency = 1</action>
+          </operation>
+          <operation condition="start_of_day">
+            <date>21-Jun</date>
+            <action>irrigation apply amount = 50 (mm) irrigation efficiency = 1</action>
+          </operation>
+          <operation condition="start_of_day">
+            <date>28-Jun</date>
+            <action>irrigation apply amount = 50 (mm) irrigation efficiency = 1</action>
+          </operation>
+          <operation condition="start_of_day">
+            <date>5-Jul</date>
+            <action>irrigation apply amount = 50 (mm) irrigation efficiency = 1</action>
+          </operation>
+          <operation condition="start_of_day">
+            <date>12-Jul</date>
+            <action>irrigation apply amount = 50 (mm) irrigation efficiency = 1</action>
+          </operation>
+          <operation condition="start_of_day">
+            <date>19-Jul</date>
+            <action>irrigation apply amount = 50 (mm) irrigation efficiency = 1</action>
+          </operation>
+          <operation condition="start_of_day">
+            <date>26-Jul</date>
+            <action>irrigation apply amount = 50 (mm) irrigation efficiency = 1</action>
+          </operation>
+          <operation condition="start_of_day">
+            <date>2-Aug</date>
+            <action>irrigation apply amount = 50 (mm) irrigation efficiency = 1</action>
+          </operation>
+          <operation condition="start_of_day">
+            <date>9-Aug</date>
+            <action>irrigation apply amount = 50 (mm) irrigation efficiency = 1</action>
+          </operation>
+          <operation condition="start_of_day">
+            <date>16-Aug</date>
+            <action>irrigation apply amount = 50 (mm) irrigation efficiency = 1</action>
+          </operation>
+          <operation condition="start_of_day">
+            <date>23-Aug</date>
+            <action>irrigation apply amount = 50 (mm) irrigation efficiency = 1</action>
+          </operation>
+          <operation condition="start_of_day">
+            <date>30-Aug</date>
+            <action>irrigation apply amount = 50 (mm) irrigation efficiency = 1</action>
+          </operation>
+          <operation condition="start_of_day">
+            <date>6-Sep</date>
+            <action>irrigation apply amount = 50 (mm) irrigation efficiency = 1</action>
+          </operation>
+          <operation condition="start_of_day">
+            <date>13-Sep</date>
+            <action>irrigation apply amount = 50 (mm) irrigation efficiency = 1</action>
+          </operation>
+          <operation condition="start_of_day">
+            <date>20-Sep</date>
+            <action>irrigation apply amount = 50 (mm) irrigation efficiency = 1</action>
+          </operation>
+          <operation condition="start_of_day">
+            <date>27-Sep</date>
+            <action>irrigation apply amount = 50 (mm) irrigation efficiency = 1</action>
+          </operation>
+          <operation condition="start_of_day">
+            <date>4-Oct</date>
+            <action>irrigation apply amount = 50 (mm) irrigation efficiency = 1</action>
+          </operation>
+          <operation condition="start_of_day">
+            <date>11-Oct</date>
+            <action>irrigation apply amount = 50 (mm) irrigation efficiency = 1</action>
+          </operation>
+          <operation condition="start_of_day">
+            <date>18-Oct</date>
+            <action>irrigation apply amount = 50 (mm) irrigation efficiency = 1</action>
+          </operation>
+          <operation condition="start_of_day">
+            <date>25-Oct</date>
+            <action>irrigation apply amount = 50 (mm) irrigation efficiency = 1</action>
+          </operation>
+          <operation condition="start_of_day">
+            <date>
+            </date>
+            <action>
+            </action>
+          </operation>
+        </operations>
