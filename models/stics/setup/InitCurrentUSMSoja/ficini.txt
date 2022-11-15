@@ -1,0 +1,37 @@
+:nbplantes:
+1
+:plante:
+snu
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+:densinitial:
+0.0 0.0 0.0 0.0 0.0 
+:plante:
+
+
+
+
+
+
+
+:densinitial:
+     
+:hinit:
+0 0 0 0 0 
+:NO3init:
+20 25 25 0 0 
+:NH4init:
+0 0 0 0 0 
+:snow:
+SDepth
+0.0
+Sdry
+0.0
+Swet
+0.0
+ps
+0.0

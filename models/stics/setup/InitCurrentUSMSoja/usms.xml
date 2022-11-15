@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<usms>
+    <usm nom="maize">
+        <datedebut>1</datedebut>
+        <datefin>365</datefin>
+        <finit>soja_ini.xml</finit>
+        <nomsol>996</nomsol>
+        <fstation>843480_sta.xml</fstation>
+        <fclim1>climat.1981</fclim1>
+        <fclim2>climat.1981</fclim2>
+        <culturean>1</culturean>
+        <nbplantes>1</nbplantes>
+        <codesimul>0</codesimul>
+        <plante dominance="1">
+            <fplt>maizeP_grain_plt.xml</fplt>
+            <ftec>Mais_tec.xml</ftec>
+            <flai>mais.lai</flai>
+        </plante>
+        <plante dominance="2">
+            <fplt>null</fplt>
+            <ftec>null</ftec>
+            <flai>null</flai>
+        </plante>
+    </usm>
+    <usm nom="soybean0">
+        <datedebut>1</datedebut>
+        <datefin>365</datefin>
+        <finit>IniLegumeGap_ini.xml</finit>
+        <nomsol>1</nomsol>
+        <fstation>843480_sta.xml</fstation>
+        <fclim1>climat.1981</fclim1>
+        <fclim2>climat.1981</fclim2>
+        <culturean>1</culturean>
+        <nbplantes>1</nbplantes>
+        <codesimul>0</codesimul>
+        <plante dominance="1">
+            <fplt>soybean_0_plt.xml</fplt>
+            <ftec>Soja_tec.xml</ftec>
+            <flai>mais.lai</flai>
+        </plante>
+        <plante dominance="2">
+            <fplt>null</fplt>
+            <ftec>null</ftec>
+            <flai>null</flai>
+        </plante>
+    </usm>
+    <usm nom="soybean_proto">
+        <datedebut>1</datedebut>
+        <datefin>365</datefin>
+        <finit>soja_ini.xml</finit>
+        <nomsol>999</nomsol>
+        <fstation>843480_sta.xml</fstation>
+        <fclim1>climat.1981</fclim1>
+        <fclim2>climat.1981</fclim2>
+        <culturean>1</culturean>
+        <nbplantes>1</nbplantes>
+        <codesimul>0</codesimul>
+        <plante dominance="1">
+            <fplt>proto_soybean_plt.xml</fplt>
+            <ftec>Soja_tec.xml</ftec>
+            <flai>mais.lai</flai>
+        </plante>
+        <plante dominance="2">
+            <fplt>null</fplt>
+            <ftec>null</ftec>
+            <flai>null</flai>
+        </plante>
+    </usm>
+    <usm nom="test">
+        <datedebut>1</datedebut>
+        <datefin>365</datefin>
+        <finit>IniLegumeGap_ini.xml</finit>
+        <nomsol>1000</nomsol>
+        <fstation>843480_sta.xml</fstation>
+        <fclim1>climat.1981</fclim1>
+        <fclim2>climat.1981</fclim2>
+        <culturean>1</culturean>
+        <nbplantes>1</nbplantes>
+        <codesimul>0</codesimul>
+        <plante dominance="1">
+            <fplt>soybean_0_plt.xml</fplt>
+            <ftec>Soja_tec.xml</ftec>
+            <flai>mais.lai</flai>
+        </plante>
+        <plante dominance="2">
+            <fplt>null</fplt>
+            <ftec>null</ftec>
+            <flai>null</flai>
+        </plante>
+    </usm>
+</usms>
