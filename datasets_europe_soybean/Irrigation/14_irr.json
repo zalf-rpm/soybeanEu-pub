@@ -1,0 +1,69 @@
+  {
+	"cropRotation": [
+		{
+			"worksteps": [				
+				{ "date": "2014-03-15", "type": "SetValue", "var": ["Mois", [1,10]], "value": 0.16 },			
+				{ "date": "2014-03-15", "type": "SetValue", "var": ["NO3", [1,9]], "value": 0.003 },		
+				{ 
+					"date": "2014-06-03", 
+					"type": "Sowing", 
+					"crop": {
+							"is-winter-crop": false,
+							"cropParams": {
+								"species": ["include-from-file", "crops/soybean.json"],
+								"cultivar": ["include-from-file", "crops/soybean/Sultana.json"]
+								},
+						"residueParams": ["include-from-file", "crop-residues/soybean.json"]
+					}
+				},
+				{
+					"date": "2014-07-19",
+					"type": "Irrigation",
+					"amount": [20.5, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+						}
+				},
+								{
+					"date": "2014-07-22",
+					"type": "Irrigation",
+					"amount": [21.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+						}
+				},
+								{
+					"date": "2014-07-28",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+						}
+				},
+								{
+					"date": "2014-08-21",
+					"type": "Irrigation",
+					"amount": [13.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+						}
+				},
+				{
+					"type": "AutomaticHarvest", 
+					"latest-date": "2016-12-31",
+					"min-%-asw": 0,
+					"max-%-asw": 150,
+					"max-3d-precip-sum": 999,
+					"max-curr-day-precip": 999,
+					"harvest-time": "maturity"
+				}
+			]
+		}
+	],
+
+	"CropParameters": ["include-from-file", "general/crop.json"]
+}

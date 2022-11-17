@@ -1,0 +1,65 @@
+{
+  "SiteParameters": {
+    "Latitude": 52.8,
+    "Slope": 0.03,
+    "HeightNN": [0 , "m"],
+    "NDeposition": [30, "kg N ha-1 y-1"],
+		
+    "SoilProfileParameters": [
+			{
+				"Thickness": [0.3, "m"],
+				"SoilOrganicCarbon": [0.66, "%"],
+				"SoilRawDensity": [1450, "kg m-3"],
+				"Sand": 0.83,
+				"Clay": 0.09,
+				"pH": 6.1
+			},
+			{
+				"Thickness": [0.3, "m"],
+				"SoilOrganicCarbon": [0.16, "%"],
+				"SoilRawDensity": [1450, "kg m-3"],
+				"Sand": 0.86,
+				"Clay": 0.08,
+				"pH": 6.1
+			},
+						{
+				"Thickness": [0.3, "m"],
+				"SoilOrganicCarbon": [0.08, "%"],
+				"SoilRawDensity": [1550, "kg m-3"],
+				"Sand": 0.72,
+				"Clay": 0.14,
+				"pH": 6.3
+			},
+						{
+				"Thickness": [0.2, "m"],
+				"SoilOrganicCarbon": [0.0, "%"],
+				"SoilRawDensity": [1550, "kg m-3"],
+				"Sand": 0.83,
+				"Clay": 0.10,
+				"pH": 6.3
+			},
+						{
+				"Thickness": [0.5, "m"],
+				"SoilOrganicCarbon": [0.0, "%"],
+				"SoilRawDensity": [1550, "kg m-3"],
+				"Sand": 0.92,
+				"Clay": 0.07,
+				"pH": 6.3
+			},
+						{
+				"Thickness": [0.4, "m"],
+				"SoilOrganicCarbon": [0.0, "%"],
+				"SoilRawDensity": [1550, "kg m-3"],
+				"Sand": 0.98,
+				"Clay": 0.01,
+				"pH": 6.3
+			}
+		]
+  },
+	
+  "SoilTemperatureParameters": ["include-from-file", "general/soil-temperature.json"],
+  "EnvironmentParameters": ["include-from-file", "general/environment.json"],
+  "SoilOrganicParameters": ["include-from-file", "general/soil-organic.json"],
+  "SoilTransportParameters": ["include-from-file", "general/soil-transport.json"],
+  "SoilMoistureParameters": ["include-from-file", "general/soil-moisture.json"]
+}

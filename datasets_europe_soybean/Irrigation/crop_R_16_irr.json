@@ -1,0 +1,78 @@
+  {
+	"cropRotation": [
+		{
+			"worksteps": [				
+				{ "date": "2016-03-15", "type": "SetValue", "var": ["Mois", [1,10]], "value": 0.16 },			
+				{ "date": "2015-03-15", "type": "SetValue", "var": ["NO3", [1,9]], "value": 0.003 },			
+				{ 
+					"date": "2016-05-09", 
+					"type": "Sowing", 
+					"crop": {
+							"is-winter-crop": false,
+							"cropParams": {
+								"species": ["include-from-file", "crops/soybean.json"],
+								"cultivar": ["include-from-file", "crops/soybean/Sultana.json"]
+								},
+						"residueParams": ["include-from-file", "crop-residues/soybean.json"]
+					}
+				},
+				{
+					"date": "2016-07-04",
+					"type": "Irrigation",
+					"amount": [12.5, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+						}
+				},
+				{
+					"date": "2016-07-11",
+					"type": "Irrigation",
+					"amount": [25.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+						}
+				},
+				{
+					"date": "2016-07-19",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+						}
+				},
+				{
+					"date": "2016-07-22",
+					"type": "Irrigation",
+					"amount": [15.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+						}
+				},
+				{
+					"date": "2016-07-25",
+					"type": "Irrigation",
+					"amount": [15.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+						}
+				},
+				{
+					"type": "AutomaticHarvest", 
+					"latest-date": "2017-12-31",
+					"min-%-asw": 0,
+					"max-%-asw": 150,
+					"max-3d-precip-sum": 999,
+					"max-curr-day-precip": 999,
+					"harvest-time": "maturity"
+				}
+			]
+		}
+	],
+
+	"CropParameters": ["include-from-file", "general/crop.json"]
+}

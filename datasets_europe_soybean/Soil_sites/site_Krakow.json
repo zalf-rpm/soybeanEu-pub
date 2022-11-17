@@ -1,0 +1,49 @@
+{
+  "SiteParameters": {
+    "Latitude": 50,
+    "Slope": 0.03,
+    "HeightNN": [0 , "m"],
+    "NDeposition": [30, "kg N ha-1 y-1"],
+			
+    "SoilProfileParameters": [
+			{
+				"Thickness": [0.3, "m"],
+				"SoilOrganicCarbon": [1.82, "%"],
+				"SoilBulkDensity": [1300, "kg m-3"],
+				"Sand": 0.15,
+				"Clay": 0.11,
+				"pH": 7.0	
+			},
+			{
+				"Thickness": [0.4, "m"],
+				"SoilOrganicCarbon": [1.03, "%"],
+				"SoilBulkDensity": [1500, "kg m-3"],
+				"Sand": 0.15,
+				"Clay": 0.14,
+				"pH": 6.8
+			},
+			{
+				"Thickness": [0.4, "m"],
+				"SoilOrganicCarbon": [0.53, "%"],
+				"SoilBulkDensity": [1500, "kg m-3"],
+				"Sand": 0.24,
+				"Clay": 0.14,
+				"pH": 6.7
+			},
+			{
+				"Thickness": [0.9, "m"],
+				"SoilOrganicCarbon": [0.12, "%"],
+				"SoilBulkDensity": [1500, "kg m-3"],
+				"Sand": 0.17,
+				"Clay": 0.17,
+				"pH": 7.1
+			}
+			]
+  },
+	
+  "SoilTemperatureParameters": ["include-from-file", "general/soil-temperature.json"],
+  "EnvironmentParameters": ["include-from-file", "general/environment.json"],
+  "SoilOrganicParameters": ["include-from-file", "general/soil-organic.json"],
+  "SoilTransportParameters": ["include-from-file", "general/soil-transport.json"],
+  "SoilMoistureParameters": ["include-from-file", "general/soil-moisture.json"]
+}

@@ -1,0 +1,86 @@
+  {
+	"cropRotation": [
+		{
+			"worksteps": [				
+				{ 
+					"date": "2010-03-17", 
+					"type": "Sowing", 
+					"crop": {
+							"is-winter-crop": false,
+							"cropParams": {
+								"species": ["include-from-file", "crops/soybean.json"],
+								"cultivar": ["include-from-file", "crops/soybean/Ecudor.json"]
+								},
+						"residueParams": ["include-from-file", "crop-residues/soybean.json"]
+					}
+				},
+				
+				{
+					"date": "2010-06-18",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+						}
+				},
+								{
+					"date": "2010-06-23",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+						}
+				},
+								{
+					"date": "2010-06-28",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+						}
+				},
+								{
+					"date": "2010-07-03",
+					"type": "Irrigation",
+					"amount": [35.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+						}
+				},
+								{
+					"date": "2010-07-07",
+					"type": "Irrigation",
+					"amount": [30.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+						}
+				},
+								{
+					"date": "2010-07-14",
+					"type": "Irrigation",
+					"amount": [30.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+						}
+				},
+								{
+					"date": "2010-07-31",
+					"type": "Irrigation",
+					"amount": [20.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+						}
+				}
+			]
+		}
+	],
+
+	"CropParameters": ["include-from-file", "general/crop.json"]
+}

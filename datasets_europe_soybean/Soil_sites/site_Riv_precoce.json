@@ -1,0 +1,63 @@
+{
+  "SiteParameters": {
+    "Latitude": 43,
+    "Slope": 0.03,
+    "HeightNN": [0 , "m"],
+    "NDeposition": [30, "kg N ha-1 y-1"],
+	"ImpenetrableLayerDepth": 0.8,
+		
+    "SoilProfileParameters": [
+			{
+				"Thickness": [0.30, "m"],
+				"SoilOrganicCarbon": [0.88, "%"],
+				"SoilBulkDensity": [1275, "kg m-3"],
+				"Sand": 0.422,
+				"Clay": 0.347,
+				"Sceleton": 0.017,
+				"pH": 6.8,
+				"FieldCapacity": 0.252,
+				"PermanentWiltingPoint": 0.122
+			},
+			{
+				"Thickness": [0.30, "m"],
+				"SoilOrganicCarbon": [0.54, "%"],
+				"SoilBulkDensity": [1260, "kg m-3"],
+				"Sand": 0.386,
+				"Clay": 0.413,
+				"Sceleton": 0.010,
+				"pH": 7.4,
+				"FieldCapacity": 0.302,
+				"PermanentWiltingPoint": 0.175
+			},
+			{
+				"Thickness": [0.4, "m"],
+				"SoilOrganicCarbon": [0.5, "%"],
+				"SoilBulkDensity": [1260, "kg m-3"],
+				"Sand": 0.158,
+				"Clay": 0.42,
+				"Sceleton": 0.189,
+				"pH": 7.4,
+				"FieldCapacity": 0.302,
+				"PermanentWiltingPoint": 0.175
+			},
+			{
+				"Thickness": [1.0, "m"],
+				"SoilOrganicCarbon": [0.5, "%"],
+				"SoilBulkDensity": [1260, "kg m-3"],
+				"Sand": 0.158,
+				"Clay": 0.42,
+				"Sceleton": 0.189,
+				"pH": 7.4,
+				"FieldCapacity": 0.302,
+				"PermanentWiltingPoint": 0.175
+			}
+			]
+  },
+	
+  "SoilTemperatureParameters": ["include-from-file", "general/soil-temperature.json"],
+	"EnvironmentParameters": ["include-from-file", "general/environment.json"],
+  "SoilOrganicParameters": ["include-from-file", "general/soil-organic.json"],
+  "SoilTransportParameters": ["include-from-file", "general/soil-transport.json"],
+  "SoilMoistureParameters": ["include-from-file", "general/soil-moisture.json"]
+}
+

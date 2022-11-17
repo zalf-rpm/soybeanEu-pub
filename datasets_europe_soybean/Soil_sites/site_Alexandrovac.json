@@ -1,0 +1,52 @@
+{
+	"__UNDERSCORES IN FRONT MEANS IGNORE THE KEY, this is just to keep a valid JSON file": "",
+	"__!!! check and beautify JSON files with http://codebeautify.org/jsonviewer !!!": "",
+	
+	"__this is the path which is prepended to 'include-from-file' paths, if they are relative paths": "",
+  "_include-file-base-path": "../",
+	
+	"__site parameters object": "",
+  "SiteParameters": {
+    "Latitude": 43.27,
+    "Slope": 0.05,
+    "HeightNN": [350, "m"],
+    "NDeposition": [15, "kg N ha-1 y-1"],
+		
+		"__soil profile parameters define the soil-column, the 'Thickness' parameter is optional and means create as many 10cm layers as necessary for the 'Thickness'": "",
+ 		
+    "SoilProfileParameters": [
+			{
+				"Thickness": [0.40, "m"],
+				"Sand": 0.15,
+				"Clay": 0.35,
+				"SoilRawDensity": [1500, "kg m-3"],
+				"SoilOrganicCarbon": [2.28, "%"],
+				"pH": 6.5,
+				"Sceleton": 0.00
+			}, 
+			{
+				"Thickness": [2.00, "m"],
+				"Sand": 0.15,
+				"Clay": 0.35,
+				"SoilRawDensity": [1300, "kg m-3"],
+				"SoilOrganicCarbon": [0.50, "%"],
+				"pH": 6.50,
+				"Sceleton": 0.000
+			}
+    ]
+  },
+	
+	"__all kinds of more general monica parameters": "",
+  "SoilTemperatureParameters": ["include-from-file", "general/soil-temperature.json"],
+  "EnvironmentParameters": {
+    "=": ["include-from-file", "general/environment.json"],
+    "LeachingDepth": 2.0,
+    "WindSpeedHeight": 2.0,
+	"MaxGroundwaterDepth": 20,
+    "MinGroundwaterDepth": 20,
+    "MinGroundwaterDepthMonth": 9
+  },
+  "SoilOrganicParameters": ["include-from-file", "general/soil-organic.json"],
+  "SoilTransportParameters": ["include-from-file", "general/soil-transport.json"],
+  "SoilMoistureParameters": ["include-from-file", "general/soil-moisture.json"]
+}

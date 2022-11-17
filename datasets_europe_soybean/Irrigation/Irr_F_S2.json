@@ -1,0 +1,54 @@
+  {
+	"cropRotation": [
+		{
+			"worksteps": [				
+			
+				{ 
+					"date": "2017-03-21", 
+					"type": "Sowing", 
+					"crop": {
+							"is-winter-crop": false,
+							"cropParams": {
+								"species": ["include-from-file", "crops/soybean.json"],
+								"cultivar": ["include-from-file", "crops/soybean/Sultana.json"]
+								},
+						"residueParams": ["include-from-file", "crop-residues/soybean.json"]
+					}
+				},
+				
+				{
+					"date": "2017-06-15",
+					"type": "Irrigation",
+					"amount": [38.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+						}
+				},
+				
+								{
+					"date": "2017-08-04",
+					"type": "Irrigation",
+					"amount": [38.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+						}
+				},
+				
+				
+				{
+					"type": "AutomaticHarvest", 
+					"latest-date": "2017-12-12",
+					"min-%-asw": 0,
+					"max-%-asw": 100,
+					"max-3d-precip-sum": 999,
+					"max-curr-day-precip": 999,
+					"harvest-time": "maturity"
+				}
+			]
+		}
+	],
+
+	"CropParameters": ["include-from-file", "general/crop.json"]
+}

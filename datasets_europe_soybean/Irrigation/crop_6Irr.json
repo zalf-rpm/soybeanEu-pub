@@ -1,0 +1,77 @@
+  {
+	"cropRotation": [
+		{
+			"worksteps": [				
+				{ 
+					"date": "2013-03-22", 
+					"type": "Sowing", 
+					"crop": {
+							"is-winter-crop": false,
+							"cropParams": {
+								"species": ["include-from-file", "crops/soybean.json"],
+								"cultivar": ["include-from-file", "crops/soybean/Ecudor.json"]
+								},
+						"residueParams": ["include-from-file", "crop-residues/soybean.json"]
+					}
+				},
+				
+				{
+					"date": "2013-07-06",
+					"type": "Irrigation",
+					"amount": [10.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+						}
+				},
+								{
+					"date": "2013-07-12",
+					"type": "Irrigation",
+					"amount": [16.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+						}
+				},
+								{
+					"date": "2013-07-22",
+					"type": "Irrigation",
+					"amount": [40.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+						}
+				},
+								{
+					"date": "2013-08-14",
+					"type": "Irrigation",
+					"amount": [40.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+						}
+				},
+												{
+					"date": "2013-08-26",
+					"type": "Irrigation",
+					"amount": [30.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+						}
+				},
+												{
+					"date": "2013-09-06",
+					"type": "Irrigation",
+					"amount": [25.0, "mm"],
+					"parameters": {
+						"nitrateConcentration": [0.0, "mg dm-3"],
+						"sulfateConcentration": [0.0, "mg dm-3"]
+						}
+				}
+			]
+		}
+	],
+
+	"CropParameters": ["include-from-file", "general/crop.json"]
+}
